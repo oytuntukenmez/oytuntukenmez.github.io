@@ -79,7 +79,7 @@ hugoblox:
   # Site header and navigation bar
   # ────────────────────────────────────────────────────────────────────────────
   header:
-    enable: false
+    enable: true
     # Header style variant
     style: navbar # navbar | navbar-simple | minimal
     # Stick to top on scroll
