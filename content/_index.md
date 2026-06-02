@@ -7,7 +7,7 @@ sections:
     design:
       css_class: dark
       background:
-        color: black
+        color: "#1a1a2e"
   - block: markdown
     content:
       title: '📚 Research'
@@ -15,17 +15,12 @@ sections:
       text: |-
         I am a third-year PhD candidate in Economics at Stockholm University,
         currently visiting Columbia Business School, hosted by Professor Stephen Zeldes.
-        My research spans **household finance**, **portfolio choice**, and **public economics**.
+        My research spans **household finance** and **public economics**.
+
+        **Selected Work in Progress**
+
+        1. Capitalism for the People: Choice and Inequality in Sweden's Pension Plan Over 25 Years (with [Erik Lindqvist](https://sites.google.com/site/eriklindqvistsse/), Fredrik Paues, [Joonas Tuhkuri](https://joonastuhkuri.com/), and [Roine Vestman](https://roinevestman.com/))
+        2. The Demand for Tax Privacy (with [Emre Oral](https://emre-oral.com/))
     design:
-      columns: '1'
-  - block: collection
-    id: publications
-    content:
-      title: Working Papers
-      filters:
-        folders:
-          - publications
-    design:
-      view: citation
       columns: '1'
 ---
