@@ -3,7 +3,7 @@ main:
     url: /
     weight: 10
   - name: Research
-    url: /#research
+    url: /#markdown
     weight: 20
   - name: CV
     url: uploads/resume.pdf
