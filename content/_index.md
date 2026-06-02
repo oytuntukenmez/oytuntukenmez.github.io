@@ -1,7 +1,5 @@
 ---
-# Leave the homepage pretty much standard
 type: landing
-
 sections:
   - block: resume-biography-3
     content:
@@ -10,21 +8,14 @@ sections:
       css_class: dark
       background:
         color: black
-        image:
-          filename: stacked-peaks.svg
-          filters:
-            brightness: 1
-          size: cover
-          position: center
-          parallax: false
   - block: markdown
     content:
       title: '📚 Research'
       subtitle: ''
       text: |-
-        I am a third-year PhD candidate in Economics at Stockholm University, and
-        currently visiting Columbia Business School, hosted by Stephen Zeldes.
-        My research spans **household finance** and **public economics**.
+        I am a third-year PhD candidate in Economics at Stockholm University,
+        currently visiting Columbia Business School, hosted by Professor Stephen Zeldes.
+        My research spans **household finance**, **portfolio choice**, and **public economics**.
     design:
       columns: '1'
   - block: collection
