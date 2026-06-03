@@ -1,7 +1,7 @@
 ---
 type: landing
 sections:
-  - block: resume-biography
+  - block: resume-biography-3
     content:
       username: me
       title: me
@@ -12,7 +12,7 @@ sections:
   - block: markdown
     id: research
     content:
-      title: '📚 Research'
+      title: 'Research'
       subtitle: ''
       text: |-
         **Selected Work in Progress**
