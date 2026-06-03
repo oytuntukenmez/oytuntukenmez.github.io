@@ -23,7 +23,7 @@ affiliations:
     url: https://business.columbia.edu/
 
 links:
-  - icon: at-symbol
+  - icon: hero/envelope
     url: mailto:oytun.tukenmez@su.se
     label: E-mail Me
   - icon: brands/github
