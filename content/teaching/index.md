@@ -1,6 +1,8 @@
 ---
 title: Teaching
 type: page
+share: false
+reading_time: false
 ---
 
 ## Teaching Assistant
