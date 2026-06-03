@@ -1,14 +1,14 @@
 ---
 type: landing
 sections:
-  - block: about.biography
+  - block: resume-biography
     content:
       username: me
       title: About Me
     design:
       css_class: dark
       background:
-        color: "#2b2416"
+        color: "#1a2744"
   - block: markdown
     id: research
     content:
