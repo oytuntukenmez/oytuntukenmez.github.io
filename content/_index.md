@@ -8,7 +8,7 @@ sections:
     design:
       css_class: dark
       background:
-        color: "#1a3a2a"
+        color: "#2d4a3e"
   - block: markdown
     id: research
     content:
