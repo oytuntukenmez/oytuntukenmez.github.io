@@ -9,7 +9,7 @@ name:
   pronunciation: ''
   
 status:
-  icon: "📊"
+  icon: ""
 role: PhD Candidate in Economics
 bio: |
   I am a third-year PhD candidate in Economics at Stockholm
@@ -42,13 +42,13 @@ interests:
 education:
   - degree: PhD in Economics
     institution: Stockholm University
-    start: 2023 -
+    start: 2023 
     end: 2029 (expected)
   - degree: MSc in Economics
     institution: LMU Munich
-    start : 2019 - 
+    start : 2019 
     end: 2022
   - degree: BA in Economics
     institution: Bogazici University
-    start: 2015 -
+    start: 2015 
     end: 2019
