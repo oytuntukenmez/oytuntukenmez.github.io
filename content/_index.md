@@ -4,11 +4,23 @@ sections:
   - block: resume-biography
     content:
       username: me
-      title: me
     design:
       css_class: dark
       background:
         color: "#2d4a3e"
+  - block: markdown
+    content:
+      title: ''
+      subtitle: ''
+      text: |-
+        **Interests:** Household Finance, Public Economics
+
+        **Education:**
+        - PhD in Economics 20232029 (exp.), Stockholm University
+        - MSc in Economics, 20192022 LMU Munich
+        - BA in Economics, 20152019 Bogazici University
+    design:
+      columns: '1'
   - block: markdown
     id: research
     content:
