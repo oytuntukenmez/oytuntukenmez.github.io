@@ -4,10 +4,11 @@ sections:
   - block: resume-biography
     content:
       username: me
+      title: About Me
     design:
       css_class: dark
       background:
-        color: "#1a1a2e"
+        color: "#2d1b00"
   - block: markdown
     id: research
     content:
