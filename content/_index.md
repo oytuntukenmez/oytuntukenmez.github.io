@@ -4,7 +4,7 @@ sections:
   - block: resume-biography
     content:
       username: me
-      title: About Me
+      title: me
     design:
       css_class: dark
       background:
