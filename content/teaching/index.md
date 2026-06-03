@@ -6,7 +6,7 @@ reading_time: false
 toc: false
 ---
 
-## Teaching Assistant
+### Teaching Assistant
 
 **Stockholm University**
 
