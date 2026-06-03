@@ -1,7 +1,7 @@
 ---
 type: landing
 sections:
-  - block: resume-biography-3
+  - block: resume-biography
     content:
       username: me
     design:
