@@ -15,7 +15,7 @@ sections:
       subtitle: ''
       text: |-
       
-        🎓 **Education**
+        🎓 ### Education
 
         - PhD in Economics, 2023–2029 (exp.), Stockholm University
         - MSc in Economics, 2019–2022, LMU Munich
