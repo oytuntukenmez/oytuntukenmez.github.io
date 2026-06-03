@@ -14,7 +14,7 @@ role: PhD Candidate in Economics
 bio: |
   I am a third-year PhD candidate in Economics at Stockholm
   University. I am visiting Columbia Business School for the Spring 2026 term, hosted by
-  Stephen Zeldes. My research mainly spans household finance and public economics.
+  Stephen Zeldes. My research focuses on household finance and public economics.
 
 affiliations:
   - name: Stockholm University
@@ -28,23 +28,27 @@ links:
     label: E-mail Me
   - icon: brands/github
     url: https://github.com/oytuntukenmez
+   - icon: brands/linkedin
+    url: https://www.linkedin.com/in/tukenmezoytun/
+    label: LinkedIn 
 
 interests:
   - Household Finance
   - Portfolio Choice
+  - Cognitive Skills
   - Public Economics
   - Tax Compliance
 
 education:
   - degree: PhD in Economics
     institution: Stockholm University
-    start: 2023
+    start: 2023 -
     end: 2029 (expected)
   - degree: MSc in Economics
     institution: LMU Munich
-    start : 2019
+    start : 2019 - 
     end: 2022
   - degree: BA in Economics
     institution: Bogazici University
-    start: 2015
+    start: 2015 -
     end: 2019
