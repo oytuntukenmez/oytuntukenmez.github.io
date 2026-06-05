@@ -12,7 +12,7 @@ status:
   icon: ""
 role: PhD Candidate in Economics
 bio: |
-  ### About Me
+  ### About
   I am a third-year PhD candidate in Economics at Stockholm
   University. Currently, I am visiting Columbia Business School, hosted by
   Stephen Zeldes. My research focuses on household finance and public economics.
@@ -20,8 +20,6 @@ bio: |
 affiliations:
   - name: Stockholm University
     url: https://www.su.se/
-  - name: Columbia Business School (Visiting)
-    url: https://business.columbia.edu/
 
 links:
   - icon: hero/envelope
