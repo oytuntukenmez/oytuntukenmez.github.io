@@ -1,13 +1,10 @@
 ---
 type: landing
 sections:
-  - block: resume-biography
+  - block: resume-biography-3
     content:
       username: me
     design:
-    avatar:
-      size: xxl
-      shape: circle
       css_class: dark
       background:
         color: "#2d4a3e"
