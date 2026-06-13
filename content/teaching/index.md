@@ -11,8 +11,7 @@ toc: false
 **Stockholm University**
 
 - Empirical Methods in Economics I (Bachelor), Fall 2025
-- Intermediate Macroeconomics (Bachelor), Spring 2025
-- Intermediate Macroeconomics (Bachelor), Fall 2024
+- Intermediate Macroeconomics (Bachelor), Spring 2025; Fall 2024
 
 **Bogazici University**
 
