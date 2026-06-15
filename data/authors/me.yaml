@@ -24,7 +24,7 @@ links:
   - icon: hero/envelope
     url: mailto:oytun.tukenmez@su.se
     label: E-mail Me
-  - icon: hero/document-arrow-down
+  - icon: hero/document-text
     url: uploads/resume.pdf
     label: CV  
   - icon: brands/github
