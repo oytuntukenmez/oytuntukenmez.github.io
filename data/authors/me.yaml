@@ -18,21 +18,22 @@ bio: |
   Stephen Zeldes. My research focuses on household finance and public economics.
 
 affiliations:
-  - name: Stockholm University
-    url: https://www.su.se/
+  - name: Department of Economics, Stockholm University
+    url: https://www.su.se/english/divisions/department-of-economics
 
 links:
   - icon: hero/envelope
     url: mailto:oytun.tukenmez@su.se
     label: E-mail Me
+  - icon: hero/document-arrow-down
+    url: uploads/resume.pdf
+    label: CV  
   - icon: brands/github
     url: https://github.com/oytuntukenmez
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/tukenmezoytun/
     label: LinkedIn 
-  - icon: hero/document-arrow-down
-    url: uploads/resume.pdf
-    label: CV
+ 
 
 interests:
   - Household Finance
