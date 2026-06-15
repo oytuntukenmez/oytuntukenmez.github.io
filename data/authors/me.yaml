@@ -30,6 +30,9 @@ links:
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/tukenmezoytun/
     label: LinkedIn 
+  - icon: hero/document-arrow-down
+    url: uploads/resume.pdf
+    label: CV
 
 interests:
   - Household Finance
