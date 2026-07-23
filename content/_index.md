@@ -28,7 +28,7 @@ sections:
         **Selected Work in Progress**
 
         1. Capitalism for the People: Choice and Inequality in Sweden's Premium Pension (with [Erik Lindqvist](https://sites.google.com/site/eriklindqvistsse/), Fredrik Paues, [Joonas Tuhkuri](https://joonastuhkuri.com/), and [Roine Vestman](https://roinevestman.com/))
-        2. The Demand for Tax Privacy (with [Emre Oral](https://emre-oral.com/))
+        2. Privacy Demand under Public Tax Disclosure (with [Emre Oral](https://emre-oral.com/))
     design:
       columns: '2'
 ---
