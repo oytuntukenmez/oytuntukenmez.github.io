@@ -11,7 +11,7 @@ organizations:
     url: https://www.su.se/
   - name: Columbia Business School (Visiting)
     url: https://business.columbia.edu/
-bio: PhD candidate in economics at Stockholm University, visiting Columbia Business School. Research interests include household finance and public economics.
+bio: PhD candidate in Economics at Stockholm University. Research interests include household finance and public economics.
 interests:
   - Household Finance
   - Public Economics
