@@ -13,7 +13,7 @@
 
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 92px;
+  scroll-padding-top: 76px;
 }
 
 body {
@@ -46,30 +46,26 @@ a:focus-visible {
 }
 
 .site-header {
-  position: sticky;
-  top: 0;
-  z-index: 10;
-  background: rgba(251, 249, 245, 0.96);
-  border-bottom: 1px solid transparent;
-  backdrop-filter: blur(8px);
+  background: var(--paper);
+  border-bottom: 1px solid var(--line);
 }
 
 .top-menu {
   width: min(var(--max-width), calc(100% - 60px));
-  min-height: 72px;
+  min-height: 60px;
   margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 32px;
+  gap: 30px;
 }
 
 .menu-name {
   color: var(--ink);
-  font-size: 26px;
+  font-size: 18px;
   font-weight: 600;
   line-height: 1.2;
-  letter-spacing: -0.025em;
+  letter-spacing: -0.018em;
   text-decoration: none;
   white-space: nowrap;
 }
@@ -77,12 +73,12 @@ a:focus-visible {
 .menu-links {
   display: flex;
   align-items: center;
-  gap: 27px;
+  gap: 22px;
 }
 
 .menu-links a {
   color: var(--accent);
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 500;
   text-decoration: none;
 }
@@ -103,7 +99,7 @@ a:focus-visible {
   grid-template-columns: 270px minmax(0, 1fr);
   gap: 58px;
   align-items: start;
-  padding: 70px 0 76px;
+  padding: 54px 0 76px;
 }
 
 .portrait-column,
@@ -171,9 +167,11 @@ a:focus-visible {
 }
 
 .contact-label {
-  font-weight: 400;
+  color: var(--ink);
+  font-weight: 600;
 }
 
+.email-contact a,
 .cv-contact a {
   text-decoration: underline;
   text-decoration-thickness: 1px;
@@ -336,6 +334,35 @@ a:focus-visible {
   text-align: right;
 }
 
+.contact-address {
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.contact-address strong {
+  font-weight: 600;
+}
+
+.contact-email-block {
+  margin: 18px 0 0;
+  font-size: 15px;
+  line-height: 1.65;
+}
+
+.contact-icon {
+  display: inline-block;
+  font-size: 18px;
+  line-height: 1;
+  text-decoration: none;
+}
+
+.contact-email-block a:last-child {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
 .site-footer {
   width: min(var(--max-width), calc(100% - 60px));
   margin: 0 auto;
@@ -354,7 +381,7 @@ a:focus-visible {
 
 @media (max-width: 780px) {
   html {
-    scroll-padding-top: 78px;
+    scroll-padding-top: 70px;
   }
 
   .top-menu,
@@ -364,12 +391,12 @@ a:focus-visible {
   }
 
   .top-menu {
-    min-height: 64px;
+    min-height: 56px;
     gap: 18px;
   }
 
   .menu-name {
-    font-size: 21px;
+    font-size: 17px;
   }
 
   .menu-links {
@@ -377,17 +404,13 @@ a:focus-visible {
   }
 
   .menu-links a {
-    font-size: 14px;
-  }
-
-  .nav-about {
-    display: none;
+    font-size: 13px;
   }
 
   .intro {
     grid-template-columns: 200px minmax(0, 1fr);
     gap: 34px;
-    padding: 48px 0 56px;
+    padding: 44px 0 56px;
   }
 
   .portrait-column,
@@ -413,21 +436,25 @@ a:focus-visible {
 
 @media (max-width: 560px) {
   .top-menu {
-    align-items: center;
+    gap: 12px;
+  }
+
+  .menu-name {
+    font-size: 15px;
   }
 
   .menu-links {
-    gap: 13px;
+    gap: 10px;
   }
 
   .menu-links a {
-    font-size: 13px;
+    font-size: 11.5px;
   }
 
   .intro {
     grid-template-columns: 1fr;
     gap: 36px;
-    padding-top: 38px;
+    padding-top: 34px;
   }
 
   .portrait-column,
@@ -471,11 +498,15 @@ a:focus-visible {
 
 @media (max-width: 390px) {
   .menu-name {
-    font-size: 19px;
+    display: none;
+  }
+
+  .top-menu {
+    justify-content: flex-end;
   }
 
   .menu-links {
-    gap: 10px;
+    gap: 13px;
   }
 
   .menu-links a {
