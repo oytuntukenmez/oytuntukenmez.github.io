@@ -1,0 +1,55 @@
+schema: hugoblox/author/v1
+slug: me
+is_owner: true
+name:
+  display: Oytun Tükenmez
+  given: Oytun
+  family: Tükenmez
+  alternate: ''
+  pronunciation: ''
+  
+status:
+  icon: ""
+role: PhD Candidate in Economics
+bio: |
+  ### About
+  I am a fourth-year PhD candidate in Economics at Stockholm University, advised by Roine Vestman. In spring 2026, I was a visiting PhD student at Columbia Business School, hosted by Stephen Zeldes.
+
+  My research focuses on household finance and public economics, combining large-scale administrative and survey data with applied econometric methods.
+affiliations:
+  - name: Department of Economics, Stockholm University
+    url: https://www.su.se/english/divisions/department-of-economics
+
+links:
+  - icon: hero/envelope
+    url: mailto:oytun.tukenmez@su.se
+    label: E-mail Me
+  - icon: academicons/cv
+    url: uploads/resume.pdf
+    label: CV  
+  - icon: brands/github
+    url: https://github.com/oytuntukenmez
+  - icon: brands/linkedin
+    url: https://www.linkedin.com/in/tukenmezoytun/
+    label: LinkedIn 
+ 
+
+interests:
+  - Household Finance
+  - Portfolio Choice
+  - Cognitive Skills
+  - Public Economics
+  - Tax Compliance
+
+education:
+  - degree: PhD in Economics (exp. 2029)
+    institution: Stockholm University
+    start: 2023
+  - degree: MSc in Economics
+    institution: LMU Munich
+    start: 2019
+    end: 2022
+  - degree: BA in Economics
+    institution: Bogazici University
+    start: 2015
+    end: 2019
