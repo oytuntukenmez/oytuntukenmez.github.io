@@ -30,12 +30,15 @@
 
   <main class="page-layout" id="top">
     <section class="intro" id="about" aria-labelledby="intro-title">
-      <div class="portrait-wrap">
-        {{ $portrait := resources.Get "media/authors/me.png" }}
-        {{ with $portrait }}
-          {{ $portraitSmall := .Fill "560x680 Center webp q88" }}
-          <img src="{{ $portraitSmall.RelPermalink }}" width="560" height="680" alt="Portrait of Oytun Tükenmez">
-        {{ end }}
+      <div class="portrait-column">
+        <div class="portrait-wrap">
+          {{ $portrait := resources.Get "media/authors/me.png" }}
+          {{ with $portrait }}
+            {{ $portraitSmall := .Fill "560x680 Center webp q88" }}
+            <img src="{{ $portraitSmall.RelPermalink }}" width="560" height="680" alt="Portrait of Oytun Tükenmez">
+          {{ end }}
+        </div>
+        <p class="photo-credit">Photo credit: Johanna Säll</p>
       </div>
 
       <div class="intro-copy">
@@ -43,11 +46,11 @@
         <h1 id="intro-title">Oytun Tükenmez</h1>
         <p class="affiliation"><a href="https://www.su.se/english/divisions/department-of-economics">Stockholm University</a></p>
 
-        <p>I am a fourth-year PhD candidate in Economics at Stockholm University, advised by Roine Vestman. My research is in household finance and public economics, with a broader interest in how households respond to financial incentives, information, and institutional design.</p>
+        <p>I am a fourth-year PhD candidate in Economics at Stockholm University, advised by Roine Vestman. My research is in household finance and public economics, with a broader interest in how households respond to financial incentives, information, and institutional design. I use administrative and survey data together with applied microeconometric methods.</p>
 
-        <p>I use administrative and survey data together with applied microeconometric methods. In spring 2026, I was a visiting PhD student at Columbia Business School, hosted by Stephen Zeldes.</p>
+        <p>In spring 2026, I was a visiting PhD student at Columbia Business School, hosted by Stephen Zeldes.</p>
 
-        <p><strong>Research interests:</strong> Household Finance · Public Economics · Behavioral Economics</p>
+        <p><strong>Research interests:</strong> Household Finance · Public Economics</p>
 
         <div class="profile-links" aria-label="Profile links">
           <a href="mailto:oytun.tukenmez@su.se">Email</a>
@@ -67,7 +70,6 @@
           <div>
             <h3>Capitalism for the People: Choice and Inequality in Sweden’s Premium Pension</h3>
             <p class="coauthors">with <a href="https://sites.google.com/site/eriklindqvistsse/">Erik Lindqvist</a>, Fredrik Paues, <a href="https://joonastuhkuri.com/">Joonas Tuhkuri</a>, and Roine Vestman</p>
-            <p>We study household retirement product choice in Sweden’s Premium Pension system, focusing on how defaults and institutional design shape retirement decisions and their distributional consequences.</p>
           </div>
         </article>
 
@@ -76,7 +78,6 @@
           <div>
             <h3>Privacy Demand under Public Tax Disclosure</h3>
             <p class="coauthors">with <a href="https://emre-oral.com/">Emre Oral</a></p>
-            <p>We study privacy demand in public taxpayer rankings in Turkey and examine how nondisclosure varies with rank visibility, taxpayer type, and local economic outcomes.</p>
           </div>
         </article>
       </div>
@@ -88,20 +89,19 @@
         <div class="teaching-group">
           <h3>Stockholm University</h3>
           <ul>
-            <li><span>Empirical Methods in Economics I</span><span>Fall 2025</span></li>
-            <li><span>Intermediate Macroeconomics</span><span>Fall 2024; Spring 2025</span></li>
+            <li><span>Empirical Methods in Economics I (Bachelor)</span><span>Fall 2025</span></li>
+            <li><span>Intermediate Macroeconomics (Bachelor)</span><span>Fall 2024; Spring 2025</span></li>
           </ul>
         </div>
 
         <div class="teaching-group">
           <h3>Boğaziçi University</h3>
           <ul>
-            <li><span>Mathematics for Economists</span><span>Fall 2018</span></li>
-            <li><span>Mathematical Statistics</span><span>Spring 2018</span></li>
-            <li><span>Intermediate Macroeconomics</span><span>Spring 2018</span></li>
+            <li><span>Mathematics for Economists (Bachelor)</span><span>Fall 2018</span></li>
+            <li><span>Mathematical Statistics (Bachelor)</span><span>Spring 2018</span></li>
+            <li><span>Intermediate Macroeconomics (Bachelor)</span><span>Spring 2018</span></li>
           </ul>
         </div>
-        <p class="detail-note">Teaching assistant positions; all courses at the bachelor level.</p>
       </div>
     </section>
 
