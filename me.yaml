@@ -7,15 +7,15 @@ name:
   family: Tükenmez
   alternate: ''
   pronunciation: ''
-  
+
 status:
   icon: ""
 role: PhD Candidate in Economics
 bio: |
   ### About
-  I am a fourth-year PhD candidate in Economics at Stockholm University, advised by Roine Vestman. In spring 2026, I was a visiting PhD student at Columbia Business School, hosted by Stephen Zeldes.
+  I am a fourth-year PhD candidate in Economics at Stockholm University, advised by Roine Vestman. My research is in household finance and public economics, with a broader interest in how households respond to financial incentives, information, and institutional design.
 
-  My research focuses on household finance and public economics, combining large-scale administrative and survey data with applied econometric methods.
+  I use administrative and survey data together with applied microeconometric methods. In spring 2026, I was a visiting PhD student at Columbia Business School, hosted by Stephen Zeldes.
 affiliations:
   - name: Department of Economics, Stockholm University
     url: https://www.su.se/english/divisions/department-of-economics
@@ -26,19 +26,17 @@ links:
     label: E-mail Me
   - icon: academicons/cv
     url: uploads/resume.pdf
-    label: CV  
-  - icon: brands/github
-    url: https://github.com/oytuntukenmez
+    label: CV
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/tukenmezoytun/
-    label: LinkedIn 
- 
+    label: LinkedIn
 
 interests:
   - Household Finance
+  - Public Economics
+  - Behavioral Economics
   - Portfolio Choice
   - Cognitive Skills
-  - Public Economics
   - Tax Compliance
 
 education:
