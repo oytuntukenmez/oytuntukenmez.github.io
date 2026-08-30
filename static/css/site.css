@@ -126,10 +126,10 @@ a:focus-visible {
 }
 
 .photo-credit {
-  margin: 4px 0 0;
+  margin: 3px 0 0;
   color: var(--muted);
-  font-size: 8px;
-  line-height: 1.25;
+  font-size: 7px;
+  line-height: 1.15;
 }
 
 .intro-copy p {
@@ -167,13 +167,23 @@ a:focus-visible {
 .profile-links {
   display: flex;
   flex-wrap: wrap;
+  align-items: baseline;
   gap: 10px 22px;
   margin-top: 22px;
 }
 
+.profile-links,
 .profile-links a {
   font-size: 15px;
+}
+
+.profile-links a {
   font-weight: 500;
+}
+
+.email-contact strong {
+  color: var(--ink);
+  font-weight: 600;
 }
 
 .content-section {
