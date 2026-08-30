@@ -4,7 +4,7 @@
   --muted: #7c665a;
   --accent: #8a5a44;
   --line: #ded5cc;
-  --max-width: 900px;
+  --max-width: 960px;
 }
 
 * {
@@ -100,18 +100,18 @@ a:focus-visible {
 
 .intro {
   display: grid;
-  grid-template-columns: 220px minmax(0, 1fr);
-  gap: 58px;
+  grid-template-columns: 250px minmax(0, 1fr);
+  gap: 60px;
   align-items: start;
   padding: 70px 0 76px;
 }
 
 .portrait-column {
-  width: 220px;
+  width: 250px;
 }
 
 .portrait-wrap {
-  width: 220px;
+  width: 250px;
   aspect-ratio: 14 / 17;
   overflow: hidden;
   background: #e6dfd8;
@@ -160,10 +160,6 @@ a:focus-visible {
   line-height: 1.45;
 }
 
-.profile-summary .affiliation a {
-  color: inherit;
-}
-
 .profile-links {
   display: grid;
   gap: 5px;
@@ -172,28 +168,25 @@ a:focus-visible {
   line-height: 1.4;
 }
 
-.email-contact strong {
+.email-contact strong,
+.cv-contact strong {
   color: var(--ink);
   font-weight: 600;
 }
 
-.profile-secondary-links {
-  display: flex;
-  align-items: center;
-  gap: 7px;
-}
-
-.profile-secondary-links a {
-  font-size: 13px;
-  font-weight: 500;
+.cv-contact a {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
 }
 
 .intro-copy {
-  padding-top: 1px;
+  align-self: start;
+  padding-top: 0;
 }
 
 .about-heading {
-  margin: 0 0 18px;
+  margin: -4px 0 18px;
   color: var(--ink);
   font-size: 20px;
   font-weight: 600;
@@ -202,7 +195,7 @@ a:focus-visible {
 }
 
 .intro-copy p {
-  max-width: 610px;
+  max-width: 640px;
   margin: 0 0 15px;
 }
 
@@ -370,7 +363,7 @@ a:focus-visible {
   margin: 0;
 }
 
-@media (max-width: 720px) {
+@media (max-width: 760px) {
   html {
     scroll-padding-top: 78px;
   }
@@ -403,14 +396,14 @@ a:focus-visible {
   }
 
   .intro {
-    grid-template-columns: 170px minmax(0, 1fr);
+    grid-template-columns: 190px minmax(0, 1fr);
     gap: 34px;
     padding: 48px 0 56px;
   }
 
   .portrait-column,
   .portrait-wrap {
-    width: 170px;
+    width: 190px;
   }
 
   .profile-summary h1 {
@@ -422,8 +415,7 @@ a:focus-visible {
   }
 
   .profile-summary .affiliation,
-  .profile-links,
-  .profile-secondary-links a {
+  .profile-links {
     font-size: 12px;
   }
 
@@ -454,15 +446,15 @@ a:focus-visible {
 
   .portrait-column,
   .portrait-wrap {
-    width: 180px;
+    width: 190px;
   }
 
   .profile-summary h1 {
     font-size: 25px;
   }
 
-  .intro-copy {
-    padding-top: 0;
+  .about-heading {
+    margin-top: 0;
   }
 
   .content-section {
