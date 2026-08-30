@@ -101,8 +101,8 @@ a:focus-visible {
 .intro {
   display: grid;
   grid-template-columns: 220px minmax(0, 1fr);
-  gap: 56px;
-  align-items: center;
+  gap: 58px;
+  align-items: start;
   padding: 70px 0 76px;
 }
 
@@ -126,64 +126,89 @@ a:focus-visible {
 }
 
 .photo-credit {
-  margin: 3px 0 0;
+  margin: 2px 0 0;
   color: var(--muted);
-  font-size: 7px;
-  line-height: 1.15;
+  font-size: 6px;
+  line-height: 1.1;
 }
 
-.intro-copy p {
-  max-width: 610px;
-  margin: 0 0 14px;
+.profile-summary {
+  margin-top: 16px;
 }
 
-.intro-copy h1 {
+.profile-summary h1 {
   margin: 0;
   color: var(--ink);
-  font-size: clamp(36px, 5vw, 47px);
+  font-size: 27px;
   font-weight: 600;
-  line-height: 1.08;
-  letter-spacing: -0.04em;
+  line-height: 1.12;
+  letter-spacing: -0.03em;
 }
 
-.intro-copy .role {
-  margin: 10px 0 2px;
+.profile-summary .role {
+  margin: 6px 0 3px;
   color: var(--accent);
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 600;
-  letter-spacing: 0.02em;
+  line-height: 1.35;
 }
 
-.intro-copy .affiliation {
-  margin: 0 0 18px;
+.profile-summary .affiliation {
+  margin: 0;
   color: var(--muted);
-  font-size: 16px;
+  font-size: 13px;
+  line-height: 1.45;
 }
 
-.affiliation a {
+.profile-summary .affiliation a {
   color: inherit;
 }
 
 .profile-links {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: baseline;
-  gap: 10px 22px;
-  margin: 0 0 24px;
-}
-
-.profile-links,
-.profile-links a {
-  font-size: 15px;
-}
-
-.profile-links a {
-  font-weight: 500;
+  display: grid;
+  gap: 5px;
+  margin-top: 14px;
+  font-size: 12.5px;
+  line-height: 1.4;
 }
 
 .email-contact strong {
   color: var(--ink);
   font-weight: 600;
+}
+
+.profile-secondary-links {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.profile-secondary-links a {
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.intro-copy {
+  padding-top: 1px;
+}
+
+.about-heading {
+  margin: 0 0 18px;
+  color: var(--ink);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.35;
+  letter-spacing: -0.02em;
+}
+
+.intro-copy p {
+  max-width: 610px;
+  margin: 0 0 15px;
+}
+
+.research-interests {
+  margin-top: 20px;
+  font-size: 15px;
 }
 
 .content-section {
@@ -292,12 +317,6 @@ a:focus-visible {
   text-align: right;
 }
 
-.detail-note {
-  margin: -11px 0 0;
-  color: var(--muted);
-  font-size: 13px;
-}
-
 .education-list {
   display: grid;
 }
@@ -384,18 +403,28 @@ a:focus-visible {
   }
 
   .intro {
-    grid-template-columns: 150px minmax(0, 1fr);
-    gap: 28px;
+    grid-template-columns: 170px minmax(0, 1fr);
+    gap: 34px;
     padding: 48px 0 56px;
   }
 
   .portrait-column,
   .portrait-wrap {
-    width: 150px;
+    width: 170px;
   }
 
-  .intro-copy h1 {
-    font-size: 34px;
+  .profile-summary h1 {
+    font-size: 23px;
+  }
+
+  .profile-summary .role {
+    font-size: 13px;
+  }
+
+  .profile-summary .affiliation,
+  .profile-links,
+  .profile-secondary-links a {
+    font-size: 12px;
   }
 
   .content-section {
@@ -419,17 +448,21 @@ a:focus-visible {
 
   .intro {
     grid-template-columns: 1fr;
-    gap: 28px;
+    gap: 36px;
     padding-top: 38px;
   }
 
   .portrait-column,
   .portrait-wrap {
-    width: 168px;
+    width: 180px;
   }
 
-  .intro-copy .affiliation {
-    margin-bottom: 16px;
+  .profile-summary h1 {
+    font-size: 25px;
+  }
+
+  .intro-copy {
+    padding-top: 0;
   }
 
   .content-section {
