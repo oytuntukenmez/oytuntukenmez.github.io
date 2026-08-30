@@ -137,14 +137,6 @@ a:focus-visible {
   margin: 0 0 14px;
 }
 
-.intro-copy .role {
-  margin-bottom: 5px;
-  color: var(--accent);
-  font-size: 15px;
-  font-weight: 600;
-  letter-spacing: 0.02em;
-}
-
 .intro-copy h1 {
   margin: 0;
   color: var(--ink);
@@ -154,10 +146,18 @@ a:focus-visible {
   letter-spacing: -0.04em;
 }
 
+.intro-copy .role {
+  margin: 10px 0 2px;
+  color: var(--accent);
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
 .intro-copy .affiliation {
-  margin: 7px 0 24px;
+  margin: 0 0 18px;
   color: var(--muted);
-  font-size: 17px;
+  font-size: 16px;
 }
 
 .affiliation a {
@@ -169,7 +169,7 @@ a:focus-visible {
   flex-wrap: wrap;
   align-items: baseline;
   gap: 10px 22px;
-  margin-top: 22px;
+  margin: 0 0 24px;
 }
 
 .profile-links,
@@ -429,7 +429,7 @@ a:focus-visible {
   }
 
   .intro-copy .affiliation {
-    margin-bottom: 20px;
+    margin-bottom: 16px;
   }
 
   .content-section {
