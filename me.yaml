@@ -13,9 +13,9 @@ status:
 role: PhD Candidate in Economics
 bio: |
   ### About
-  I am a fourth-year PhD candidate in Economics at Stockholm University, advised by Roine Vestman. My research is in household finance and public economics, with a broader interest in how households respond to financial incentives, information, and institutional design.
+  I am a fourth-year PhD candidate in Economics at Stockholm University, advised by Roine Vestman. My research is in household finance and public economics, with a broader interest in how households respond to financial incentives, information, and institutional design. I use administrative and survey data together with applied microeconometric methods.
 
-  I use administrative and survey data together with applied microeconometric methods. In spring 2026, I was a visiting PhD student at Columbia Business School, hosted by Stephen Zeldes.
+  In spring 2026, I was a visiting PhD student at Columbia Business School, hosted by Stephen Zeldes.
 affiliations:
   - name: Department of Economics, Stockholm University
     url: https://www.su.se/english/divisions/department-of-economics
@@ -34,7 +34,6 @@ links:
 interests:
   - Household Finance
   - Public Economics
-  - Behavioral Economics
   - Portfolio Choice
   - Cognitive Skills
   - Tax Compliance
