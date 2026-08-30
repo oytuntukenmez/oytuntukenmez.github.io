@@ -17,7 +17,15 @@
 </head>
 <body>
   <header class="site-header">
-    <div class="top-menu" aria-hidden="true"></div>
+    <nav class="top-menu" aria-label="Primary navigation">
+      <a class="menu-name" href="#top">Oytun Tükenmez</a>
+      <div class="menu-links">
+        <a href="#about">About</a>
+        <a href="#research">Research</a>
+        <a href="{{ "uploads/resume.pdf" | relURL }}">CV</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
   </header>
 
   <main class="page-layout" id="top">
@@ -112,6 +120,22 @@
             <li><span>Intermediate Macroeconomics (Bachelor)</span><span>Spring 2018</span></li>
           </ul>
         </div>
+      </div>
+    </section>
+
+    <section class="content-section" id="contact" aria-labelledby="contact-title">
+      <h2 id="contact-title">Contact</h2>
+      <div class="section-body contact-body">
+        <p class="contact-address"><strong>Department of Economics</strong><br>
+          Stockholm University<br>
+          Room A664<br>
+          Universitetsvägen 10 A, Floor 6<br>
+          Stockholm, Sweden
+        </p>
+        <p class="contact-email-block">
+          <a class="contact-icon" href="mailto:oytun.tukenmez@su.se" aria-label="Email Oytun Tükenmez">✉</a><br>
+          <a href="mailto:oytun.tukenmez@su.se">oytun.tukenmez@su.se</a>
+        </p>
       </div>
     </section>
   </main>
