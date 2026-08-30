@@ -4,7 +4,7 @@
   --muted: #7c665a;
   --accent: #8a5a44;
   --line: #ded5cc;
-  --max-width: 960px;
+  --max-width: 990px;
 }
 
 * {
@@ -100,18 +100,18 @@ a:focus-visible {
 
 .intro {
   display: grid;
-  grid-template-columns: 250px minmax(0, 1fr);
-  gap: 60px;
+  grid-template-columns: 270px minmax(0, 1fr);
+  gap: 58px;
   align-items: start;
   padding: 70px 0 76px;
 }
 
-.portrait-column {
-  width: 250px;
+.portrait-column,
+.portrait-wrap {
+  width: 270px;
 }
 
 .portrait-wrap {
-  width: 250px;
   aspect-ratio: 14 / 17;
   overflow: hidden;
   background: #e6dfd8;
@@ -139,39 +139,39 @@ a:focus-visible {
 .profile-summary h1 {
   margin: 0;
   color: var(--ink);
-  font-size: 27px;
+  font-size: 28px;
   font-weight: 600;
   line-height: 1.12;
   letter-spacing: -0.03em;
 }
 
-.profile-summary .role {
-  margin: 6px 0 3px;
-  color: var(--accent);
+.profile-summary .role,
+.profile-summary .affiliation,
+.profile-links {
   font-size: 14px;
-  font-weight: 600;
-  line-height: 1.35;
+  font-weight: 400;
+  line-height: 1.45;
+}
+
+.profile-summary .role {
+  margin: 7px 0 3px;
+  color: var(--muted);
 }
 
 .profile-summary .affiliation {
   margin: 0;
   color: var(--muted);
-  font-size: 13px;
-  line-height: 1.45;
 }
 
 .profile-links {
   display: grid;
   gap: 5px;
   margin-top: 14px;
-  font-size: 12.5px;
-  line-height: 1.4;
+  color: var(--ink);
 }
 
-.email-contact strong,
-.cv-contact strong {
-  color: var(--ink);
-  font-weight: 600;
+.contact-label {
+  font-weight: 400;
 }
 
 .cv-contact a {
@@ -234,9 +234,6 @@ a:focus-visible {
 }
 
 .paper {
-  display: grid;
-  grid-template-columns: 34px minmax(0, 1fr);
-  gap: 15px;
   padding: 22px 0 24px;
   border-top: 1px solid var(--line);
 }
@@ -249,14 +246,6 @@ a:focus-visible {
   padding-bottom: 0;
 }
 
-.paper-number {
-  margin: 3px 0 0;
-  color: var(--muted);
-  font-size: 12px;
-  font-weight: 600;
-  letter-spacing: 0.07em;
-}
-
 .paper h3,
 .teaching-group h3,
 .education-row h3 {
@@ -266,7 +255,7 @@ a:focus-visible {
 }
 
 .paper h3 {
-  max-width: 620px;
+  max-width: 650px;
   font-size: 18px;
   line-height: 1.42;
   letter-spacing: -0.012em;
@@ -363,7 +352,7 @@ a:focus-visible {
   margin: 0;
 }
 
-@media (max-width: 760px) {
+@media (max-width: 780px) {
   html {
     scroll-padding-top: 78px;
   }
@@ -396,27 +385,24 @@ a:focus-visible {
   }
 
   .intro {
-    grid-template-columns: 190px minmax(0, 1fr);
+    grid-template-columns: 200px minmax(0, 1fr);
     gap: 34px;
     padding: 48px 0 56px;
   }
 
   .portrait-column,
   .portrait-wrap {
-    width: 190px;
+    width: 200px;
   }
 
   .profile-summary h1 {
     font-size: 23px;
   }
 
-  .profile-summary .role {
-    font-size: 13px;
-  }
-
+  .profile-summary .role,
   .profile-summary .affiliation,
   .profile-links {
-    font-size: 12px;
+    font-size: 13px;
   }
 
   .content-section {
@@ -446,7 +432,7 @@ a:focus-visible {
 
   .portrait-column,
   .portrait-wrap {
-    width: 190px;
+    width: 200px;
   }
 
   .profile-summary h1 {
@@ -461,11 +447,6 @@ a:focus-visible {
     grid-template-columns: 1fr;
     gap: 22px;
     padding: 38px 0 42px;
-  }
-
-  .paper {
-    grid-template-columns: 28px minmax(0, 1fr);
-    gap: 10px;
   }
 
   .teaching-group li,
