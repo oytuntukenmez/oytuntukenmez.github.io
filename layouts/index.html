@@ -130,5 +130,8 @@
   <footer class="site-footer">
     <p>© {{ now.Year }} Oytun Tükenmez</p>
   </footer>
+  {{ with site.Params.hugoblox.analytics.goatcounter.endpoint }}
+  <script data-goatcounter="{{ . }}" async src="https://gc.zgo.at/count.js"></script>
+  {{ end }}
 </body>
 </html>
