@@ -1,11 +1,20 @@
 # Oytun Tükenmez — Academic Website
 
-This repository contains the personal academic website of Oytun Tükenmez, PhD candidate in Economics at Stockholm University.
+Personal academic website of Oytun Tükenmez, PhD candidate in Economics at Stockholm University.
 
 **Website:** https://oytuntukenmez.github.io/
 
-The website includes information about research, education, teaching, and contact details.
+The site presents my research, education, teaching, and contact information.
 
-## Website maintenance
+## Maintenance
 
-The site is built with Hugo and deployed to GitHub Pages through GitHub Actions. The custom homepage layout is in `layouts/index.html`, and its styling is in `static/css/site.css`.
+The site uses standalone [Hugo](https://gohugo.io/) and GitHub Pages. No Hugo Blox theme or Node.js dependencies are required.
+
+- `layouts/index.html` — custom homepage layout
+- `static/css/site.css` — website styles
+- `assets/media/authors/me.png` — profile photo
+- `static/uploads/` — CV
+- `hugo.yaml` — Hugo configuration
+- `.github/workflows/deploy.yml` — GitHub Pages build and deployment
+
+Changes pushed to `main` trigger automatic deployment. Pull requests are built to check that the site still compiles.
